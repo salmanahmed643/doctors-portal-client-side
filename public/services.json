@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Fluoride Treatment",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident alias fuga amet tenetur deserunt itaque distinctio ipsam earum eum accusantium. Earum.",
+        "img": "https://i.ibb.co/bWtQkkL/fluoride.png"
+    },
+    {
+        "name": "Cavity Filling",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident alias fuga amet tenetur deserunt itaque distinctio ipsam earum eum accusantium. Earum.",
+        "img": "https://i.ibb.co/jMNdXLV/cavity.png"
+    },
+    {
+        "name": "Teeth Whitening",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident alias fuga amet tenetur deserunt itaque distinctio ipsam earum eum accusantium. Earum.",
+        "img": "https://i.ibb.co/p2PFgM4/whitening.png"
+    }
+]
