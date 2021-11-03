@@ -2,6 +2,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import { Button, Container, Typography } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 const bg = 'https://i.ibb.co/CWMbbfR/bg.png';
 const bannerBg = {
@@ -30,7 +31,9 @@ const Banner = () => {
                                 <Typography variant="p" sx={{color: 'text.secondary', display: 'block', my: 3}}>
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae soluta architecto eveniet, a, inventore vitae, ducimus consequuntur libero aliquam laborum aliquid corporis minima velit.
                                 </Typography> <br />
-                                <Button sx={{px: 3, py: 1}} style={{backgroundColor: '#10CFE3', color: '#fff', textTransform: 'uppercase'}}> get appointment </Button>
+                                <Link to="/appointment" style={{textDecoration: 'none'}}>
+                                    <Button sx={{px: 3, py: 1}} style={{backgroundColor: '#10CFE3', color: '#fff', textTransform: 'uppercase'}}> get appointment </Button>
+                                </Link>
                             </Box>
                         </Grid>
                         <Grid item xs={12} md={7} style={verticalCenter}>
