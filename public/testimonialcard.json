@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using 'Content here, content",
+        "img": "https://i.ibb.co/nchjHnJ/people-1.png",
+        "name": "winson herry",
+        "city": "california"
+    },
+    {
+        "id": 2,
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using 'Content here, content",
+        "img": "https://i.ibb.co/CMgCw4R/people-2.png",
+        "name": "winson herry",
+        "city": "california"
+    },
+    {
+        "id": 3,
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using 'Content here, content",
+        "img": "https://i.ibb.co/d6XgYFp/people-3.png",
+        "name": "winson herry",
+        "city": "california"
+    }
+]
