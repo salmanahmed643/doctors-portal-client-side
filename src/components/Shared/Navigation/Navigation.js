@@ -7,9 +7,11 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../hooks/useAuth';
 
 
 const Navigation = () => {
+    const {user, logOut} = useAuth()
     return (
         <>
             <Box sx={{ flexGrow: 1 }}>
@@ -28,13 +30,22 @@ const Navigation = () => {
                         Doctor Portal
                     </Typography>
                     
-                    <Link to="/">
-                        Home
+                    <Link style={{color: '#fff', textDecoration: 'none'}} to="/">
+                        <Button color="inherit">
+                            Home
+                        </Button>
                     </Link>
-                    <Link to="/appointment" style={{textDecoration: 'none'}}>
+                    <Link to="/appointment" style={{color: '#fff' ,textDecoration: 'none'}}>
                         <Button color="inherit"> Appointment </Button>
                     </Link>
-                    <Button color="inherit">Login</Button>
+                    {
+                        user?.email ? 
+                            <Button onClick={logOut} color="inherit">LogOut</Button>
+                        :
+                        <Link to="/login" style={{color: '#fff', textDecoration: 'none'}}>
+                            <Button color="inherit">Login</Button>
+                        </Link>
+                    }
                     </Toolbar>
                 </AppBar>
             </Box>  
